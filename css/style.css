@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+}
+section.head_sec {
+    background: #cdcdcd21;
+}
+.nav ul li {
+    display: inline-block;
+    font-weight: 600;
+    padding: 35px 20px;
+}   
+.logo img {
+    width: 270px;
+    margin-top: 7px;
+}
+.logo {
+    width: 40%;
+    float: left;
+}
+.nav ul li a {
+    color: #333333;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav ul li a:hover {
+    color: #316DD9;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+section.intro_sec {
+    margin-top: 80px;
+}
+section.what_sec {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #cdcdcd45;
+    overflow: auto;
+}
+.main_intro h1 ,
+.main_what h1,
+.gallery_main h1{
+    color: #427900;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.main_intro span ,
+.main_what span,
+.gallery_main span{
+    color: #316DC3;
+}
+
+
+
+.main_intro p {
+    padding: 0px 110px;
+}
+.col-3{
+    width: 30%;
+    float: left;
+}
+.col-3.box {
+    text-align: center;
+    margin: 20px 20px;
+    background: #f7f8fa !important;
+    padding: 20px 0px;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 16%);
+    transition: 0.5s;
+}
+.main_what .col-3.box:hover {
+    box-shadow: 9px 8px 20px 13px rgb(0 0 0 / 16%);
+}
+.col-3.box h2 {
+    color: #333333;
+    padding: 10px;
+}
+.col-6 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 31%;
+    float: left;
+}
+.gallery{
+    text-align: center;
+    float: left;
+}
+.gallery img {
+    width: 290px;
+}
+section.gallery_sec {
+    overflow: auto;
+    margin: 100px 0px;
+}
+.footer_sec {
+    background-color: rgb(37, 39, 46) !important;
+    overflow: auto;
+    color: #fff;
+    padding: 50px 0px;
+    text-align: center;
+}
+.footer_sec a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer_sec a:hover{
+    color: #316DD9;
+}
+.col-4.footer_about img {
+    width: 230px;
+    margin-bottom: 20px;
+}
+.footer_main .col-4 {
+    padding: 0px 10px;
+}
+.footer_main h2 {
+    padding-bottom: 30px;
+}
+.col-4.Useful_Links ul li {
+    padding-bottom: 10px;
+}
+.col-4.social_icons ul li {
+    display: inline;
+    padding-right: 20px;
+}
+.col-4.footer_about ul {
+    padding-top: 30px;
+}
+.col-4.footer_about ul li {
+    padding-bottom: 10px;
+}
+.copyright {
+    background-color: #316DD9;
+    padding: 15px 0px;
+    text-align: center;
+    color: #fff;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.title img {
+    background: 100% 100%;
+    width: 100%;
+    height: 450px;
+}
+section.contact_sec,
+section.about_sec {
+    margin: 100px 0px;
+}
+.col-3.ehsass {
+    text-align: center;
+    margin: 20px 15px;
+    padding: 80px 0px;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 0 10px 20px lightgrey;
+    transition: 0.5s;
+    border: 5px #008b8b solid;
+    font-size: 20px;
+    font-weight:bold ;
+}
+.col-3.ehsass:hover {
+    box-shadow: 9px 8px 20px 13px rgb(0 0 0 / 16%);
+    cursor: pointer;
+}
+.ehsaas_sec {
+    overflow: auto;
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+section.news_sec{
+    margin: 80px 0px;
+}
+.card {
+   background-color: #c7c7c73d;
+   padding: 20px;
+   margin-top: 20px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+.card:hover{
+    background-color: #c7c7c780;
+}
+.card img{
+    margin: 50px 0px;
+        width: 100%;
+}
+.card p{
+    padding-bottom: 20px;
+}
+.card h5 {
+    padding: 10px;
+    font-size: 30px;
+    background: #316DC3 ;
+    width: fit-content;
+    border-radius: 7px;
+    color: #ffff;
+}
+.card h2 {
+    padding-bottom: 20px;
+    font-style: italic;
+}
